@@ -1,5 +1,4 @@
 from sys import *
-import os
 
 tokens = []
 num_stack = []
