@@ -10,7 +10,7 @@ A new programming language aimed at being a simplistic yet functional proof of c
 
 Running a Germ program:
 
-`py -3 GermLang.py FILENAME.germ`
+`py -3 GermLangInterpreter.py FILENAME.germ`
 
 Certain debugging features are left commented out.
 
