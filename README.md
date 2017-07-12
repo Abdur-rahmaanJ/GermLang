@@ -8,6 +8,10 @@
                                                    |___/ 
 A new programming language aimed at being a simplistic yet functional proof of concept DIY programming language.
 
+## Requirements (Development and Running)
+
+- Python3
+
 Running a Germ program:
 
 `py -3 GermLangInterpreter.py FILENAME.germ`
