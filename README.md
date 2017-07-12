@@ -10,13 +10,14 @@ A new programming language aimed at being a simplistic yet functional proof of c
 
 ## Requirements (Development and Running)
 
+Certain debugging features are left commented out, so if you are adding features you can comment/uncomment the interpreter print/return statements at the end of interpreter functions as needed.
+
 - Python3
 
-Running a Germ program:
+## Running a Germ program
 
 `py -3 GermLangInterpreter.py FILENAME.germ`
 
-Certain debugging features are left commented out.
 
 ## TODO
 
