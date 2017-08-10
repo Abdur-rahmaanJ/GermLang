@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+
+#############################################################
+# GermLangInterpreter.py - A basic DIY programming language #
+# (c) gdifiore 2017                                         #
+#############################################################
+
 from sys import *
 
 tokens = []
