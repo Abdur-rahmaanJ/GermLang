@@ -6,6 +6,7 @@
 #############################################################
 
 from sys import *
+import os
 
 tokens = []
 num_stack = []
@@ -13,8 +14,13 @@ symbols = {}
 
 def open_file(filename):
     data = open(filename, "r").read()
-    data += "<EOF>"
-    return data
+    extension = os.path.splitext(filename)[1]
+    if extension == '.germ':
+        data += "<EOF>"
+        return data
+    else:
+        print("Incorrect filetype. Must be `.germ`")
+        exit()
 
 def lex(filecontents):
     tok = ""
@@ -160,7 +166,7 @@ def parse(toks):
             i+=3
 
     #print(symbols)
-            
+
 def run():
     data = open_file(argv[1])
     toks = lex(data)
