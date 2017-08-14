@@ -21,7 +21,6 @@ Certain debugging features are left commented out, so if you are adding features
 
 ## TODO
 
-- Check filetype for `.germ`
 - if/else statements
 - Beginning and End file definitions
 
