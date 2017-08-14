@@ -15,8 +15,13 @@ Certain debugging features are left commented out, so if you are adding features
 - Python3
 
 ## Running a Germ program
+### Windows
 
 `py -3 GermLangInterpreter.py FILENAME.germ`
+
+### MacOS/Linux
+
+`./GermLangInterpreter.py FILENAME.germ`
 
 
 ## TODO
