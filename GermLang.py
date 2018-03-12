@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #
-# GermLangInterpreter.py - A basic DIY programming language 
+# GermLang.py - A basic DIY programming language 
 #
 # (c) gdifiore 2017                                         
 #
