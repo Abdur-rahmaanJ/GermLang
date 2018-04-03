@@ -19,6 +19,6 @@ Certain debugging features are left commented out, so if you are adding features
 
 ## TODO
 
-- if/else statements
-- Beginning and End file definitions
+- [ ] if/else statements
+- [ ] Beginning and End file definitions
 
